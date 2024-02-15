@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common */
+.primary-color{
+    color: rgb(253, 110, 10);
+}
+.bg-primary{
+    background-color: rgb(253, 110, 10);
+}
+
+.btn-primary{
+    padding: 12px 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: rgb(226, 94, 0);
+    transition: .5s;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* nav related Css */
+
+.nav{
+    margin: 30px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav > ul{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav li{
+    list-style: none;
+    color: rgb(71, 71, 71);
+}
+.nav a{
+    text-decoration: none;
+}
+.nav-title {
+
+    font-size: 45px;
+    font-weight: 800;
+}
